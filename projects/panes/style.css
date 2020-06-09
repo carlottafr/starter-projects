@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    border: 5px solid teal;
+    height: 410px;
+    width: 610px;
+}
+
+.bottom-image,
+.top-image {
+    position: absolute;
+}
+
+.top-image {
+    overflow-x: hidden;
+    width: 300px;
+}
+
+.bar {
+    position: absolute;
+    height: 400px;
+    width: 10px;
+    background-color: hotpink;
+    left: 295px;
+}

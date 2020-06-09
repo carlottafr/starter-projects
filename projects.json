@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Connect 4 Game",
+        "directory": "connect4",
+        "description": "A classic. Take turns entering player chips. The first player to connect four - horizontally, vertically or diagonally - wins."
+    },
+    {
+        "title": "Picture Carousel",
+        "directory": "picture-carousel",
+        "description": "A picture carousel switching pictures automatically or by clicking one of the indicator bullets."
+    },
+    {
+        "title": "Panes Project",
+        "directory": "panes",
+        "description": "Resizeable panes: show more of one picture or the other by dragging the pink bar."
+    },
+    {
+        "title": "Search Project",
+        "directory": "search",
+        "description": "This was a fun project in which I was able to produce something that I am using daily - incremental search, using a country API."
+    },
+    {
+        "title": "Spotify Search",
+        "directory": "spotify",
+        "description": "This was an amazing project using the Spotify API. Please add '?scroll=infinite' to the URL for infinite scrolling."
+    },
+    {
+        "title": "Ticker Project",
+        "directory": "ticker",
+        "description": "This fun little project showed me one of many ways to manipulate the contents of a webpage in interesting shapes."
+    },
+    {
+        "title": "Webpage",
+        "directory": "webpage",
+        "description": "This project introduced me to the challenge of building a (static) website following a specific design."
+    }
+]

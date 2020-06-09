@@ -1,0 +1,139 @@
+/* https://coolors.co/ddd1c7-c2cfb2-8db580-7e8987-4b4a67 */
+
+body {
+    background: #7e8987;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: 100%;
+}
+
+h1,
+h2,
+a,
+p,
+footer {
+    font-weight: lighter;
+    color: #153131;
+}
+
+h1,
+h2,
+a {
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: #4b4a67 1px solid;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a,
+p {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+#background {
+    margin: 0 auto;
+}
+
+#background div {
+    background-color: #8db580;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40%;
+    justify-content: center;
+}
+
+#background div:hover {
+    background-color: #ddd1c7;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+#description {
+    background-color: #8db580;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#description p {
+    margin: 10px;
+    letter-spacing: initial;
+}
+
+#descr-image {
+    padding: 10px;
+}
+
+#descr-image img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#launch {
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+
+#launch:hover {
+    transform: scale(1.1);
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav div:hover {
+    background-color: #ddd1c7;
+}
+
+#nav div img {
+    display: none;
+}
+
+#nav p {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#selectedProject {
+    background-color: #ddd1c7;
+}

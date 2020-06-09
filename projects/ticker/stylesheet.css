@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#ticker {
+    overflow: hidden;
+    border: 1px solid black;
+    height: 2.5em;
+    width: 100%;
+    position: relative;
+}
+
+#headlines {
+    white-space: nowrap;
+    position: absolute;
+    top: 10px;
+    left: 0%; /* <- starts out at 100% at the start point */
+}
+
+#headlines a {
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: black;
+    padding-right: 40px;
+}
+
+#tickerbottom {
+    overflow: hidden;
+    border: 1px solid black;
+    height: 2.5em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#headlines2 {
+    white-space: nowrap;
+    position: absolute;
+    bottom: 10px;
+    left: -145%;
+}
+
+#headlines2 a {
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: black;
+    padding-right: 50px;
+}

@@ -1,0 +1,15 @@
+<div id="container">
+<div id="nav">
+    {{> nav}}
+    <div><a href="/"><p>Home</p></a></div>
+</div>
+<hr>
+<div id="description">
+    {{#selectedProject}}
+        <h1>{{title}}</h1>
+        <div id="descr-image"><img src="/{{directory}}/preview.png" /></div>
+        <p>{{description}}</p>
+        <a href='/{{directory}}' target="_blank"><p id="launch">Launch The Project</p></a>
+    {{/selectedProject}}
+</div>
+</div>

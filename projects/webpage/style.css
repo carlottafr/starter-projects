@@ -1,0 +1,269 @@
+/* Main parts */
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    font-size: 14px;
+}
+
+header {
+    height: 10px;
+    padding: 30px;
+    position: relative;
+    background-color: #fff;
+}
+
+footer {
+    background-color: grey;
+    height: 40px;
+    position: relative;
+}
+
+/* Tags */
+
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section {
+    padding: 250px 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-image: url("spices.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+h2 a {
+    color: #cf6e06;
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 50px;
+    bottom: 2px;
+}
+
+/* Classes and children tags */
+
+.button {
+    border: #cf6e06 solid 2px;
+    border-radius: 30px;
+    background-color: #fc3;
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.button h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon-b {
+    height: 50px;
+    max-width: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.main-wrapper {
+    width: 100%;
+}
+
+.main-row {
+    padding-left: 150px;
+}
+
+.main-row div {
+    display: inline-block;
+}
+
+.main-row-block {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.main-row-block h2 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.main-row-block p {
+    margin-top: 0;
+}
+.text p {
+    max-width: 370px;
+}
+
+/* IDs */
+
+#logo {
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#burgermenu {
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+#darkness {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+@keyframes fadein {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+#menu {
+    height: 100%;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+#menu.on {
+    visibility: visible;
+    -webkit-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+#menu div {
+    margin: 10px auto;
+}
+
+#menu div a {
+    /* text-decoration: none; */
+    color: black;
+    font-size: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#menu,
+#welcome-modal {
+    background-color: white;
+}
+
+#welcome-modal {
+    padding: 5%;
+    height: 40%;
+    width: 40%;
+    max-width: 50%;
+    border-radius: 0.5em;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    visibility: hidden;
+}
+
+#welcome-modal div {
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+}
+
+#welcome-modal h2 {
+    font-size: 20px;
+}
+
+#x {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /* Main parts plus tags mobile */
+
+    section {
+        height: 30%;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    footer p {
+        left: 30px;
+    }
+
+    /* Classes mobile */
+
+    .button {
+        width: 160px;
+        height: 30px;
+    }
+
+    .button h2 {
+        font-size: 16px;
+    }
+
+    .main-row {
+        padding-left: 40px;
+    }
+
+    .text {
+        max-width: 60%;
+    }
+
+    .icon-b {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* That one lonely ID */
+
+    #logo {
+        left: 20px;
+    }
+}

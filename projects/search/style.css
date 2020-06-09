@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    width: 150px;
+}
+
+.results {
+    /* border: 1px solid black; */
+    padding-top: 5px;
+    margin: -1px 0 0;
+    width: 150px;
+}
+
+.highlight {
+    background: lightgrey;
+    color: blue;
+}
+
+#none {
+    font-style: italic;
+    background: white;
+    color: gray;
+}
