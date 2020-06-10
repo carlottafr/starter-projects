@@ -33,4 +33,6 @@ app.get("/:project/description", (req, res) => {
     });
 });
 
-app.listen(8080, () => console.log("Express server is at your service!"));
+app.listen(process.env.PORT || 8080, () =>
+    console.log("Express server is at your service!")
+);
