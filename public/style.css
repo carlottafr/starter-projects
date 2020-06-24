@@ -120,18 +120,21 @@ img {
     justify-content: center;
 }
 
-#nav div:hover {
-    background-color: #ddd1c7;
-}
-
-#nav div img {
-    display: none;
-}
-
 #nav p {
     font-size: 14px;
     letter-spacing: 0.1em;
     text-align: center;
+    color: #fff;
+}
+
+#nav div:hover,
+#nav p:hover {
+    background-color: #ddd1c7;
+    color: #153131;
+}
+
+#nav div img {
+    display: none;
 }
 
 #selectedProject {
