@@ -1,4 +1,4 @@
-<h1><a href="https://starter-projects.herokuapp.com/" alt="Stage to Stage" title="Stage to Stage" target="_blank">Starter Projects</h1>
+<a href="https://starter-projects.herokuapp.com/" alt="Starter Projects" title="Starter Projects" target="_blank"><h1>Starter Projects</h1>
 <img src="/public/preview.png" width="360" /></a>
 
 <p>This is a collection of projects that I completed while learning to work with JavaScript as well as HTML and CSS. The page is built with Express and Handlebars.</p>
